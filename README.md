@@ -10,12 +10,16 @@ Příklady - napojení ESP8266 (Wemos D1 mini) s čidlem na měření teploty (D
 ### Instalace Arduino IDE (1.6.9)
 https://www.arduino.cc/en/Main/Software
 
-File - Preferences - Aditional Board Manager Url
+File -> Preferences -> Aditional Board Manager Url
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-Sketch - Include Library - Manage Libraries
-Vyhledat DHT
-DHT Sensor Library by Adafruit - Install
+Tools -> Board:xxx -> Boards Manager -> install esp8266 by ESP8266 Community 
+
+Vybrat ESP8266 board Tools > Board menu
+   
+- Sketch - Include Library - Manage Libraries
+- Vyhledat DHT
+- DHT Sensor Library by Adafruit - Install
 
 ### Device explorer
 https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md
@@ -31,8 +35,7 @@ https://iot.pospa.net/IotHub/Device - nejdou zadavat TTL (chyba stránky), ale d
 lepsi si udelat VM v azure a tam si nainstalovat Device Explorer
 
 
-Kód:
-	- Wifi je nastavena na router a je spravne
-	- čidla
-		○ DHT11 - modrý
-		○ DHT22 - bílý
+### Kód
+- čidla
+-- DHT11 - modrý
+-- DHT22 - bílý
