@@ -36,6 +36,15 @@ lepsi si udelat VM v azure a tam si nainstalovat Device Explorer
 
 
 ### Kód
-- čidla
--- DHT11 - modrý
--- DHT22 - bílý
+* čidla
+  * DHT11 - modrý
+  * DHT22 - bílý
+
+### Azure
+* Datová stravenka: http://www.microsoftazurepass.com
+* MS Account (pokud nemáte) - https://signup.live.com
+* Portál - https://portal.azure.com 
+* PowerBI - https://powerbi.microsoft.com 
+
+###Hardware
+http://www.wemos.cc – Wemos D1 Mini
