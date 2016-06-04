@@ -21,6 +21,8 @@ Vybrat ESP8266 board Tools > Board menu
 - Vyhledat DHT
 - DHT Sensor Library by Adafruit - Install
 
+Mac: instalovat driver por USB - http://www.wemos.cc/downloads/
+
 ### Device explorer
 https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md
 
