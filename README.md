@@ -46,5 +46,23 @@ lepsi si udelat VM v azure a tam si nainstalovat Device Explorer
 * Portál - https://portal.azure.com 
 * PowerBI - https://powerbi.microsoft.com 
 
+### Query pro Stream Analytics
+
+```
+SELECT
+    DeviceId,
+    AVG(Temperature) AvgTemperature,
+    MAX(Temperature) MaxTemperature,
+    MIN(Temperature) MinTemperature,
+    AVG(Humidity) AvgHumidity,
+    MAX(Humidity) MaxHumidity,
+    MIN(Humidity) MinHumidity
+INTO
+    [ESP8266-BARCAMP]
+FROM
+    [ESP8266]
+GROUP BY DeviceId, SLIDINGWINDOW(s, 20) 
+```
+
 ###Hardware
 http://www.wemos.cc – Wemos D1 Mini
